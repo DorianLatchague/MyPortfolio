@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+div.container{
+    max-width: 970px;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+}
+    div.top{
+        padding: 15px;
+    }
+        h1{
+            color: Gold;
+        }
+    div.middle{
+        background-image: radial-gradient(rgb(209, 202, 209), darkorange);
+        padding: 15px 25px;
+    }
+        #photoofme{
+            display: block;
+            box-sizing: border-box;
+            max-width: 100%;
+            height: auto;
+            border: 5px solid red;
+        }
+        div.about{
+            background-image: linear-gradient(to right, white, yellow);
+            vertical-align: top;
+            padding-bottom: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+            div.about p{
+                font-size: 16px;
+                margin: 10px;
+            }
+            div.about a{
+                font-size: 16px;
+                color: black; 
+                margin-left: 10px;
+                margin-bottom: 10px;
+            }
+        div.ttlwindow{
+            height: 20px;
+            padding: 10px;
+            background-image: linear-gradient(#b1b1b5, #8c8a97, #b1b1b5);
+            color: white;
+        }
+    div.bottom{
+        min-height: 70px;
+        background-color: #fafafa;
+        display: inline;
+        margin: 0 auto;
+    }
+        div.contacts{
+            min-height: 10px;
+            text-align: center;
+        }
+            div.contacts span{
+                font-size: 15px;
+                position: relative;
+                top: 1px;
+        }
+            div.contacts a{
+                font-size: 14px;
+                text-decoration: none;
+                color: black;
+        }
+        div.socialmedias{
+            margin-top: 10px;
+            min-height: 10px;
+            text-align: center;
+        }
+            div.socialmedias img{
+                height: 15px;
+                width: 15px;
+            }
+            div.socialmedias a{
+                font-size: 14px;
+                position: relative;
+                bottom: 6px;
+                color: black;
+                font-style: italic;
+        }
+@media only screen and (min-width: 550px){
+    #photoofme{
+        margin: 0px auto;
+    }
+    div.about{
+        height: 60%;    
+    }
+        div.about p{
+            font-size: 24px;
+        }
+        div.about a{
+            font-size: 24px;
+        }
+}
+@media only screen and (min-width: 1024px){
+    #photoofme{
+        width: 43.5%;
+        display: inline-block;
+    }
+    div.about{
+        padding: 0;
+        margin-top: 0;
+        display: inline-block;
+        height: 417.08px;
+        width: 54.71%;
+        margin-left: 12px;
+    }
+}
